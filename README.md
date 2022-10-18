@@ -1,18 +1,3 @@
-<p align="center"><img src="screenshot/movColored.png" alt="Movplay"</p>
-<p align="center"><img src="screenshot/summary.png" alt="Movplay"></p>
-
-
-# Movplay
-An Android app built with Jetpack Compose consuming [TMDB API](https://www.themoviedb.org/documentation/api) to help movies to have current information of the trending, popular, upcoming many other films.
-
-
-### Structural design pattern
-The app is built with the Model-View-ViewModel (MVVM) is its structural design pattern that separates objects into three distinct groups:
-- Models hold application data. They’re usually structs or simple classes.
-- Views display visual elements and controls on the screen. They’re typically subclasses of UIView.
-- View models transform model information into values that can be displayed on a view. They’re usually classes, so they can be passed around as references.
-
-
 ## Tech Stack.
 - [Kotlin](https://developer.android.com/kotlin) - Kotlin is a programming language that can run on JVM. Google has announced Kotlin as one of its officially supported programming languages in Android Studio; and the Android community is migrating at a pace from Java to Kotlin.
 - [Material 3](https://m3.material.io/foundations/accessible-design/overview) - Latest Material design for Android.
